@@ -1,12 +1,11 @@
 fn main() {
-    let mut number = 3;
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
 
-    while number != 0 {
-        println!("{}!", number);
+    while index < 6 {
+        // 値は{}です
+        println!("the value is: {}", a[index]);
 
-        number = number - 1;
+        index = index + 1;
     }
-
-    // 発射！
-    println!("LIFTOFF!!!");
 }
